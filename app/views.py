@@ -8,8 +8,6 @@ import string
 import random
 import os
 
-# Adding path to config
-app.config['INITIAL_FILE_UPLOADS'] = 'app/static/uploads'
 
 # Loading model
 model = models.load_model('app/static/model/intel_image.h5')
